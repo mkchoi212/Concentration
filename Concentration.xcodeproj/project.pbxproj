@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		CA06C988216D39830012AA0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06C987216D39830012AA0E /* AppDelegate.swift */; };
-		CA06C98A216D39830012AA0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06C989216D39830012AA0E /* ViewController.swift */; };
-		CA06C98D216D39830012AA0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA06C98B216D39830012AA0E /* Main.storyboard */; };
-		CA06C990216D39830012AA0E /* Concentration.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA06C98E216D39830012AA0E /* Concentration.xcdatamodeld */; };
 		CA06C992216D39850012AA0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA06C991216D39850012AA0E /* Assets.xcassets */; };
 		CA06C995216D39850012AA0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA06C993216D39850012AA0E /* LaunchScreen.storyboard */; };
+		CA06C99D216D3A6D0012AA0E /* GameCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06C99C216D3A6D0012AA0E /* GameCollectionViewController.swift */; };
+		CA06C99F216D3B140012AA0E /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06C99E216D3B140012AA0E /* HistoryTableViewController.swift */; };
+		CA06C9A4216D49AF0012AA0E /* GameCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06C9A3216D49AF0012AA0E /* GameCollectionViewDataSource.swift */; };
+		CA06C9A6216D4A7D0012AA0E /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06C9A5216D4A7D0012AA0E /* CardCollectionViewCell.swift */; };
+		CA06C9A8216D4C060012AA0E /* UIColor+Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06C9A7216D4C060012AA0E /* UIColor+Generate.swift */; };
+		CA06C9AA216D515F0012AA0E /* GameCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06C9A9216D515F0012AA0E /* GameCollectionViewDelegate.swift */; };
+		CA76DC4F216D979A005D37EA /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76DC4E216D979A005D37EA /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CA06C984216D39830012AA0E /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA06C987216D39830012AA0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA06C989216D39830012AA0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CA06C98C216D39830012AA0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CA06C98F216D39830012AA0E /* Concentration.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Concentration.xcdatamodel; sourceTree = "<group>"; };
 		CA06C991216D39850012AA0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA06C994216D39850012AA0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA06C996216D39850012AA0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA06C99C216D3A6D0012AA0E /* GameCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionViewController.swift; sourceTree = "<group>"; };
+		CA06C99E216D3B140012AA0E /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		CA06C9A3216D49AF0012AA0E /* GameCollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		CA06C9A5216D4A7D0012AA0E /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		CA06C9A7216D4C060012AA0E /* UIColor+Generate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Generate.swift"; sourceTree = "<group>"; };
+		CA06C9A9216D515F0012AA0E /* GameCollectionViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionViewDelegate.swift; sourceTree = "<group>"; };
+		CA76DC4E216D979A005D37EA /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +65,26 @@
 			isa = PBXGroup;
 			children = (
 				CA06C987216D39830012AA0E /* AppDelegate.swift */,
-				CA06C989216D39830012AA0E /* ViewController.swift */,
-				CA06C98B216D39830012AA0E /* Main.storyboard */,
+				CA76DC4E216D979A005D37EA /* History.swift */,
+				CA06C99E216D3B140012AA0E /* HistoryTableViewController.swift */,
+				CA06C9A2216D3BAD0012AA0E /* Game View */,
 				CA06C991216D39850012AA0E /* Assets.xcassets */,
 				CA06C993216D39850012AA0E /* LaunchScreen.storyboard */,
 				CA06C996216D39850012AA0E /* Info.plist */,
-				CA06C98E216D39830012AA0E /* Concentration.xcdatamodeld */,
 			);
 			path = Concentration;
+			sourceTree = "<group>";
+		};
+		CA06C9A2216D3BAD0012AA0E /* Game View */ = {
+			isa = PBXGroup;
+			children = (
+				CA06C99C216D3A6D0012AA0E /* GameCollectionViewController.swift */,
+				CA06C9A3216D49AF0012AA0E /* GameCollectionViewDataSource.swift */,
+				CA06C9A9216D515F0012AA0E /* GameCollectionViewDelegate.swift */,
+				CA06C9A5216D4A7D0012AA0E /* CardCollectionViewCell.swift */,
+				CA06C9A7216D4C060012AA0E /* UIColor+Generate.swift */,
+			);
+			path = "Game View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +147,6 @@
 			files = (
 				CA06C995216D39850012AA0E /* LaunchScreen.storyboard in Resources */,
 				CA06C992216D39850012AA0E /* Assets.xcassets in Resources */,
-				CA06C98D216D39830012AA0E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +157,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA06C98A216D39830012AA0E /* ViewController.swift in Sources */,
-				CA06C990216D39830012AA0E /* Concentration.xcdatamodeld in Sources */,
+				CA06C99D216D3A6D0012AA0E /* GameCollectionViewController.swift in Sources */,
 				CA06C988216D39830012AA0E /* AppDelegate.swift in Sources */,
+				CA76DC4F216D979A005D37EA /* History.swift in Sources */,
+				CA06C9A6216D4A7D0012AA0E /* CardCollectionViewCell.swift in Sources */,
+				CA06C9A8216D4C060012AA0E /* UIColor+Generate.swift in Sources */,
+				CA06C99F216D3B140012AA0E /* HistoryTableViewController.swift in Sources */,
+				CA06C9AA216D515F0012AA0E /* GameCollectionViewDelegate.swift in Sources */,
+				CA06C9A4216D49AF0012AA0E /* GameCollectionViewDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CA06C98B216D39830012AA0E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA06C98C216D39830012AA0E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CA06C993216D39850012AA0E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -340,19 +356,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		CA06C98E216D39830012AA0E /* Concentration.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				CA06C98F216D39830012AA0E /* Concentration.xcdatamodel */,
-			);
-			currentVersion = CA06C98F216D39830012AA0E /* Concentration.xcdatamodel */;
-			path = Concentration.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = CA06C97C216D39820012AA0E /* Project object */;
 }
