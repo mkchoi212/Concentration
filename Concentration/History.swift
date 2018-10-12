@@ -26,6 +26,6 @@ struct History {
     }
     
     static func save(gameState: [(UIColor, Bool)]) {
-        
+        // TODO
     }
 }

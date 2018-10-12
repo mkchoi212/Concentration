@@ -55,7 +55,8 @@ class HistoryTableViewController: UITableViewController {
     
     @objc func displayGame(_ sender: Any?) {
         let difficulty = (pickerView.selectedRow(inComponent: 0) + 1) * 2
-        let gameViewController = GameCollectionViewController(level: difficulty)
+        // TODO
+        let gameViewController = GameCollectionViewController(level: difficulty, gameState: nil)
         let targetNC = UINavigationController(rootViewController: gameViewController)
         present(targetNC, animated: true, completion: nil)
     }

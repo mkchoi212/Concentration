@@ -61,7 +61,7 @@ extension GameCollectionViewDelegate: UICollectionViewDelegateFlowLayout {
         
         let topPadding = sectionInsets.top * CGFloat(level + 1)
         let availableHeight = collectionView.frame.height - topPadding
-        let heightPerItem = availableHeight / (CGFloat(level) * 5)
+        let heightPerItem = availableHeight / (CGFloat(level) * 1.2)
         
         return CGSize(width: widthPerItem, height: heightPerItem)
     }
